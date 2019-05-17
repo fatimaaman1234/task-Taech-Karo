@@ -1,1 +1,1 @@
-# task-Taech-Karo
+# task-Tech-Karo
