@@ -1,0 +1,60 @@
+/* write your styles here */
+body{
+    margin: 0%;
+
+}
+
+marquee{
+    background-color: #ed484c;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 5px;
+
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4c4c4c;
+    
+}
+#logo{
+    padding: 10px 20px;;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+    color: #6b6363;
+    padding: 7px 10px;
+}
+a{
+    text-decoration: none;
+    color: #cac4c4;
+}
+header{
+    top: 2px;
+    position:sticky;
+
+}
+main{
+    background-image: url(images/floral.png);
+    background-color: #f18c97;
+
+}
+#circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#join-now{
+    background-color: black;
+    color: #f18c97;
+    border: none;
+    padding: 10px 50px;
+
+
+}
+h2{
+    text-align: center;
+}
