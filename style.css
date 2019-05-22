@@ -1,60 +1,289 @@
 /* write your styles here */
-body{
+*{
     margin: 0%;
-
 }
+
 
 marquee{
     background-color: #ed484c;
     color: white;
     border-bottom: 2px solid white;
     padding: 5px;
-
 }
+
 #head{
     display: flex;
     justify-content: space-between;
-    background-color: #4c4c4c;
-    
+    background-color: #4c4c4c;    
 }
+
 #logo{
     padding: 10px 20px;;
-
 }
+
+
 li{
     list-style: none;
     display: inline-block;
     color: #6b6363;
-    padding: 7px 10px;
+    padding: 18px 20px;
 }
+
+
 a{
     text-decoration: none;
     color: #cac4c4;
 }
+
+
 header{
     top: 2px;
     position:sticky;
-
+    z-index: 2;
 }
+
+
 main{
     background-image: url(images/floral.png);
-    background-color: #f18c97;
-
-}
-#circle{
-    display: flex;
+    background-color:#f18c97; 
+    display :flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
 }
+
+
+#circle{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4em;
+    padding: 60px;
+}
+
+
+#para-tech{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    margin-left:23%;
+    font-weight: bold;
+}
+
+
 #join-now{
     background-color: black;
     color: #f18c97;
     border: none;
-    padding: 10px 50px;
+    padding: 20px 70px;
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+#services{
+    background-image: url(images/floral.png);
+    display: grid;
+    grid-row-gap: 5px;
+
+}
+
+
+h2{
+    text-align: center;
+    font-family: 'Sofia', cursive;
+    padding: 1em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding: 1em;
+}
+
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 501;
+}
+
+#services{
+    background-color: #efece7;
+}
+
+#column{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+i{
+    font-size: 150px;    
+}
+
+
+i:hover{
+    color: #f18c97;
+}
+
+
+#html,#css,#js{
+    margin: 30px;
+    text-align: center;
+}
+
+#portfolio{
+    background-image: url(images/floral.png);
+    background-color: #ddceb4;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#para-portfolio{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    margin-left:23%;
+    font-weight: bold;
+}
+
+
+#images{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: 220px 220px;
+    grid-gap: 20px 50px;
+    margin-top: 1em;
+    text-align: center;
+    margin-bottom: 2em;
 
 
 }
-h2{
+
+#projects{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+figure{
+    margin: 1em;
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+figcaption{
+    display: none;
+    width: 250px;
+    height: 200px;
+    background-color: rgba(0, 0,0, 0.80);
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    justify-content: center;
     text-align: center;
+    flex-direction: column;
+}
+
+
+figure:hover > figcaption{
+    display: flex;
+}
+
+
+#icon > i{
+    border-radius: 50px;
+    font-size: 1em;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border: 1px solid white;
+}
+
+
+#icon >i:hover{
+    background-color: white;
+    color: black;
+}
+
+
+#contact{
+    background-image: url(images/floral.png);
+    background-color: #afc7c6;
+}
+
+
+
+#contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#contact-us > i{
+    text-align: center;
+    font-size: 3em;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 15px 14px;
+    margin: 5px;
+}
+
+#contact-us >i:hover{
+    background-color: black;
+    color: #fcdea6;
+    
+}
+
+
+footer{
+    background-color: #212121;
+}
+
+
+#para-footer{
+    text-align: center;
+    color: white;
+    padding: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+
+#para-footer > i{
+    font-size: 1em;
+}
+
+
+footer:hover i{
+    color: red;
 }
