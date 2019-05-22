@@ -155,6 +155,7 @@ i:hover{
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 
@@ -164,7 +165,7 @@ i:hover{
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
     width: 50%;
-    margin-left:23%;
+    
     font-weight: bold;
 }
 
@@ -246,6 +247,7 @@ figure:hover > figcaption{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2em;
 }
 
 
@@ -287,5 +289,3 @@ footer{
 footer:hover i{
     color: red;
 }
-
-/* WIP > responsive */
