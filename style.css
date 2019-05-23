@@ -2,6 +2,9 @@
 *{
     margin: 0%;
 }
+body{
+    width: 100%;
+}
 
 
 marquee{
@@ -193,7 +196,7 @@ figure{
     margin: 1em;
     display: inline-block;
     position: relative;
-    width: 250px;
+    width: 250px;;
     height: 200px;
     border-radius: 10px;
     z-index: 1;
@@ -291,4 +294,32 @@ footer:hover i{
 }
 
 
-/* wIP > responsive */
+
+@media (max-width:800px ){
+    #column{
+        display: flex;
+        flex-direction: column;
+    }
+    #images{
+        display: grid;
+        grid-template-columns: repeat(2,250px);
+        grid-template-rows: auto;
+        
+        
+     }
+        
+
+
+}
+@media (max-width:400px ){
+    #column{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #images{
+        
+        display: flex;
+        flex-direction: column;
+     } 
+}
